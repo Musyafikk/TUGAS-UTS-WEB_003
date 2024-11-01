@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholar - Sekolah Online</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-scholar.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+</head>
+
+<body>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">
+                            <h1>Scholar</h1>
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Search Start ***** -->
+                        <div class="search-input">
+                            <form id="search" action="#">
+                                <input type="text" placeholder="Cari Sesuatu" id='searchText' name="searchKeyword" onkeypress="handle" />
+                                <i class="fa fa-search"></i>
+                            </form>
+                        </div>
+                        <!-- ***** Search End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li><a href="index.html">Beranda</a></li>
+                            <li><a href="services.html">Layanan</a></li>
+                            <li><a href="courses.html" class="active">Kursus</a></li>
+                            <li><a href="events.html">Acara</a></li>
+                            <li><a href="register.html">Daftar Sekarang!</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Courses Section ***** -->
+    <section class="section courses" id="courses">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-heading">
+                        <h6>Kursus Terbaru</h6>
+                        <h2>Kursus Populer Kami</h2>
+                    </div>
+                </div>
+            </div>
+            <ul class="event_filter">
+                <li><a class="is_active" href="#!" data-filter="*">Tampilkan Semua</a></li>
+                <li><a href="#!" data-filter=".design">Desain Web</a></li>
+                <li><a href="#!" data-filter=".development">Pengembangan</a></li>
+                <li><a href="#!" data-filter=".wordpress">WordPress</a></li>
+            </ul>
+            <div class="row event_box">
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design">
+                    <div class="events_item">
+                        <div class="thumb">
+                            <a href="#"><img src="assets/images/course-01.jpg" alt=""></a>
+                            <span class="category">Desain Web</span>
+                            <span class="price"><h6><em>$</em>160</h6></span>
+                        </div>
+                        <div class="down-content">
+                            <span class="author">Stella Blair</span>
+                            <h4>Belajar Desain Web</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 development">
+                    <div class="events_item">
+                        <div class="thumb">
+                            <a href="#"><img src="assets/images/course-02.jpg" alt=""></a>
+                            <span class="category">Pengembangan</span>
+                            <span class="price"><h6><em>$</em>340</h6></span>
+                        </div>
+                        <div class="down-content">
+                            <span class="author">Cindy Walker</span>
+                            <h4>Tips Pengembangan Web</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design wordpress">
+                    <div class="events_item">
+                        <div class="thumb">
+                            <a href="#"><img src="assets/images/course-03.jpg" alt=""></a>
+                            <span class="category">WordPress</span>
+                            <span class="price"><h6><em>$</em>640</h6></span>
+                        </div>
+                        <div class="down-content">
+                            <span class="author">David Hutson</span>
+                            <h4>Tren Web Terbaru</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 development">
+                    <div class="events_item">
+                        <div class="thumb">
+                            <a href="#"><img src="assets/images/course-04.jpg" alt=""></a>
+                            <span class="category">Pengembangan</span>
+                            <span class="price"><h6><em>$</em>450</h6></span>
+                        </div>
+                        <div class="down-content">
+                            <span class="author">Stella Blair</span>
+                            <h4>Langkah Belajar Online</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 wordpress development">
+                    <div class="events_item">
+                        <div class="thumb">
+                            <a href="#"><img src="assets/images/course-05.jpg" alt=""></a>
+                            <span class="category">WordPress</span>
+                            <span class="price"><h6><em>$</em>320</h6></span>
+                        </div>
+                        <div class="down-content">
+                            <span class="author">Sophia Rose</span>
+                            <h4>Menjadi Master WordPress</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 wordpress design">
+                    <div class="events_item">
+                        <div class="thumb">
+                            <a href="#"><img src="assets/images/course-06.jpg" alt=""></a>
+                            <span class="category">Desain Web</span>
+                            <span class="price"><h6><em>$</em>240</h6></span>
+                        </div>
+                        <div class="down-content">
+                            <span class="author">David Hutson</span>
+                            <h4>Pengembang Full Stack</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ***** About Section ***** -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-heading">
+                        <h6>Tentang Kami</h6>
+                        <h2>Siapa Kami?</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Kami adalah platform pendidikan yang menyediakan berbagai kursus di bidang teknologi informasi, desain web, dan pengembangan perangkat lunak.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ***** Events Section ***** -->
+    <section class="section events" id="events">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-heading">
+                        <h6>Acara Mendatang</h6>
+                        <h2>Ikuti Acara Kami</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="event-item">
+                        <h4>Workshop Desain Web</h4>
+                        <p>Tanggal: 10 Des 2036 | Durasi: 2 Jam</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="event-item">
+                        <h4>Seminar Pengembangan Aplikasi</h4>
+                        <p>Tanggal: 15 Des 2036 | Durasi: 3 Jam</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="event-item">
+                        <h4>Pameran Teknologi</h4>
+                        <p>Tanggal: 20 Des 2036 | Durasi: 5 Jam</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ***** Testimonials Section ***** -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-heading">
+                        <h6>Apa Kata Mereka</h6>
+                        <h2>Testimoni Siswa</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="testimonial-item">
+                        <p>"Kursus ini sangat membantu saya dalam memahami desain web!"</p>
+                        <span>- Rina Suara</span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-item">
+                        <p>"Saya belajar banyak dari seminar ini, sangat bermanfaat!"</p>
+                        <span>- Joni Saputra</span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-item">
+                        <p>"Pengalaman belajar yang luar biasa, pengajarnya sangat kompeten!"</p>
+                        <span>- Lila Nanda</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ***** Contact Section ***** -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-heading">
+                        <h6>Hubungi Kami</h6>
+                        <h2>Kirim Pesan Anda</h2>
+                    </div>
+                    <form id="contact-form" action="" method="post">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <fieldset>
+                                    <input type="text" name="name" id="name" placeholder="Nama Anda..." required>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                                <fieldset>
+                                    <input type="email" name="email" id="email" placeholder="Email Anda..." required>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                                <fieldset>
+                                    <textarea name="message" id="message" placeholder="Pesan Anda" required></textarea>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-12">
+                                <fieldset>
+                                    <button type="submit" id="form-submit" class="orange-button">Kirim Pesan</button>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ***** Footer Section ***** -->
+    <footer>
+        <div class="container">
+            <div class="col-lg-12">
+                <p>Hak Cipta © 2036 Organisasi Scholar. Semua hak dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/counter.js"></script>
+</body>
+</html>
